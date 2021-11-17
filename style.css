@@ -1,0 +1,71 @@
+h2 {
+color: rgb(2, 42, 27);
+ background: rgb(255, 255, 255);
+}
+h1{
+  color: rgb(2, 42, 27);
+  background: rgb(255, 255, 255);
+}
+body {
+  background-image: url(images/wallpaper_leaves.png); 
+}
+a{
+  color: rgb(13, 49, 71);
+}
+body{
+  text-decoration : none;
+  font-family: Georgia, serif;
+  color: rgb(13, 49, 71);
+}
+.list-inline >li{
+  text-align : center;
+  display : inline;
+  font-size : 30px;
+  padding : 0px 20px;
+}
+.list-inline{
+  list-style : none;
+  padding-left : 0px;
+}
+i:hover{
+  color: rgba(77, 153, 156);
+}
+.container {
+  width : 700px;
+  margin : 20px auto ;
+}
+.card-white {
+  padding : 20px 30px;
+  background-color : white;
+  border-radius : 4px;
+  box-shadow : 0px 15px 30px rgba(0,0,0,0.1);
+  text-align : center;
+  margin: 20px auto;
+}
+.img-circle {
+  border-radius : 50%
+}
+.button-blue{
+  background-color : rgba(13, 49, 71);
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.button-blue:hover{
+  background-color: rgba(77, 153, 156);
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
